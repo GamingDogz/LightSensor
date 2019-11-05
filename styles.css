@@ -1,0 +1,81 @@
+body {
+  background-color: lightgrey;
+  font-family: "Helvetica", sans-serif;
+  line-height: 1;
+  color: black
+}
+h1 {
+  color: black;
+  font-family: "Times New Roman", serif;
+  line-height: 1;
+}
+
+h2 {
+  font-family: "Times New Roman", serif;
+  line-height: 1;
+}
+h3 {
+  font-family: "Times New Roman", serif;
+  font-style: italic;
+  line-height: .1;
+}
+
+a {
+  color: blue;
+}
+
+ol{
+  font-size: 12px;
+}
+nav ul {
+  background-color: black;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  padding: 10px;
+  border-radius: 10px;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 10px;
+  margin-left: 10px;
+  color:blue;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+img {
+  border-radius: 20px;
+  padding: 10px;
+  line-height: 0.1;
+}
+
+
+
+
+
+
+/**********************************
+This section is for styling tables
+***********************************/
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+tr {
+  background-color: lightblue;
+}
+th, td {
+  vertical-align: top;
+  padding: 5px;
+  text-align: left;
+}
+th {
+  color: black;
+}
+td {
+  color: black;
+}
+/********************************/
